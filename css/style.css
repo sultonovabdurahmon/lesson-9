@@ -1,0 +1,92 @@
+
+.block {
+    border: 1px solid #333380;
+}
+
+.inline {
+    border: 1px solid #333380;
+}
+
+.inline-block {
+    border: 1px solid #333380;
+}
+
+.pos-1 {
+    background-color: rgb(90, 83, 76);
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+.pos-2 {
+    padding: 8px;
+    background-color: bisque;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.pos-3 {
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+
+.product-card {
+    width: 600px;
+    border-radius: 12px;
+    border: 1px solid #80808054;
+    padding: 12px;
+    margin: 0 auto;
+    margin-top: 230px;
+}
+
+.product-img {
+    background: linear-gradient(100deg, rgba(106, 115, 220, 1) 0%, rgba(118, 79, 168, 1) 100%);
+    border-radius: 8px;
+    padding: 8px;
+    height: 160px;
+    position: relative;
+}
+
+.hit {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #E94659;
+    padding: 6px;
+    border-radius: 32px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.product-name {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 125px;
+    left: 15px;
+}
+
+.product-price {
+    color: #555D56;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.cost{
+    color: #405569;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sale{
+    font-size: 15px;
+    color: #8d8d8d;
+    position: absolute;
+    right: 470px;
+}
